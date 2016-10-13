@@ -1,0 +1,52 @@
+//Assignment 3: Delete sticky notes and Insert notes. Due Friday of next week
+//More JavaScript...
+/*var foo = function () {
+  arguments[0];
+  arguments[1];
+  }
+foo();
+
+var url;
+var data;
+doHTTPGet(url, function (resp, err)) {
+  if (err) {
+    console.log("error at url:", url, err);
+    }
+  data = resp;
+ });
+}
+
+function makeCounter() {
+  var counter = 0;
+  return function () {
+    return counter++;
+  } 
+}
+
+var person = {
+  firstName: "Bob",
+  lastName: "Smith",
+  getFullName: function () {
+    return this.firstName + ' ' + this.lastName;
+  }
+}
+
+function Person(firstName, lastName) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.getFullName = function() {
+    return this.firstName + ' ' + this.lastName;
+  }
+}
+
+Can be displayed as: var p = new Person("Bob", "Smith");
+
+Person prototype.getFullName = function () {
+  return this.firstName + ' ' + this.lastName;
+};
+
+Classes:
+-Node
+  (html --> head, body, elements within, etc.)
+
+*/
