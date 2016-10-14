@@ -1,0 +1,48 @@
+/*
+document.body.innerHTML
+"......." (access content)
+document.body.childNodes[1].innerHTML
+element.innerHTML.Node.textContent
+document.querySelector('section.limited')
+HTMLAnchorElement.href, .src, .value
+document.querySelector('section.limited').offset(or client)Height/Width
+document.querySelector('section.limited').scrollHeight (how much is shown in one scroll)
+document.querySelector('section.limited').getBoundingClientRect() (shows dimensions)
+window.pageXOffset
+window.pageYOffset
+
+Put stuff in DOM: document.createElement()
+var newElem = document.createElement('section')
+document.createTextNode()
+var newText = document.createTextNode
+newElem.appendChild(newText)
+newElem
+newImg = document.createElement('img')
+newImg.setAttribute('src', "http://placekitten.com/300/300")
+newImg
+newElem.appendChild(newImg)
+newElem
+document.body.appendChild(newElem)
+newElem.classList
+newElem.classList.add("limited")
+newElem.classList.remove("limited")
+Element.style.color = 'red'
+newElem.style.color = 'red'
+"red"
+newElem.style.color = null;
+newElem.id = 'image-section'
+"image-section"
+newElem.innerHTML = 'NewString'
+"NewString"
+newElem.innerHTML = '<img src=asd one error="alert(\"Uh oh!\")">'
+document.body.removeChild(newElem)
+Node.getElementById()
+.getElementsByClassName()
+document.getElementById('nav-list')
+document.getElementsByClassName('normal-section')[0].getElementsByTagName('p')
+  <p>...</p>
+Node.getElementsByTagName()
+Node.querySelector('section.large-section')
+Node.querySelectorAll()
+
+*/
