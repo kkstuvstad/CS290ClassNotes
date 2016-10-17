@@ -1,0 +1,49 @@
+/*
+Element.addEventListener('type', function() {});
+window.addEvenListener('click', function() {
+  console.log(== Clicked!');
+});
+document.querySelector('.large-section.limited')
+  addElementListener('click', function() {
+    console.log('== Clicked!');
+  });
+
+function.handleClick() {
+  console.log('== Clicked!');
+}
+
+var sec = document.querySelector('.large-selection.limited')
+function handleClickOnce() {
+  console.log('== Clicked on sec!');
+  sec.removeEventListener('click', handleClickOnce);
+}
+
+sec.addEventListener('click', handleClickOnce);
+
+function handleClick event() {
+  console.log('== Clicked! Event: ', event.type);
+  console.log('== Target:', event.target);
+  console.log('== currentTarget:', event.currentTarget);
+  
+document.querySelector('.large-section.limited')
+  addEventListener('click', handleClick);
+  
+document.querySelector('.large-section.limited')
+  addEventListener('click', handleClick2);
+  
+document.body.addEventListener('click', function (event) {
+  event.target.style['background-color'] = 'green';
+});
+
+.preventDefault() --> stops default action from happening
+
+document.body.addEventListener('click', function (event) {
+  event.currentTarget style['background-color'] = 'green';
+});
+
+document.querySelector9'a').addEventListener('click' function (event) {
+  console.log("== No Navigation!");
+  event preventDefault();
+});
+
+*/
