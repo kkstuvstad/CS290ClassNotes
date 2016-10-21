@@ -1,0 +1,59 @@
+/*
+Forms:
+<input type = "text">
+<label for = "id"> text </label>
+<input type = "number">
+
+Dropdown menu:
+<select>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+
+i.e.:
+<select id="box-background-select">
+  <option value="gray>Gray</option>
+  ...
+</select>
+
+function handleBoxContentInputUpdate(event) {
+  if (event.target.value.length == 10) {
+    event.target.value = '';
+  }
+  
+  var newContent = event.target.value;
+  var box = document.getElementById('box');
+  var textNode = document.createTextNode(newContent);
+  
+  while (box.firstChild) {
+    box.removeChild(box.firstChild);
+  }
+  
+  box.appendChild(textNode);
+  
+  sanitizeBoxPosition();
+}
+
+function handleBoxPositionInputUpdate(event) {
+  var newPos = parseInt(event.target.value);
+  console.log(newPos);
+  if (isNaN(newPos)) {
+    alert("Not a number!");
+  }
+  
+  sanitizeBoxPosition();
+}
+
+function handleBoxBorderInputChange(event) {
+  var box = document.getElementById('box');
+  if (event.target.checked) {
+    box.classList.add('with-border');
+   }
+  else {
+    box.classList.remove('with-border');
+  }
+  
+  sanitizeBoxPosition();
+}
+
+*/
